@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        main {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <p>Esta es la página de contacto. Puedes escribirnos para cualquier consulta.</p>
+    </header>
+    <main>
+        <h2>Formulario de Contacto</h2>
+        <p>Rellena el siguiente formulario para ponerte en contacto con nosotros:</p>
+        <!-- Aquí va el formulario de contacto -->
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
